@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Shops
 {
@@ -11,7 +10,7 @@ namespace Shops
         private List<ShopListItem> GenerateShopListForCustomer()
         {
             const int maxPurchaseCount = 5;
-            int customerPurchaseCount = this.numberGenerator.Next(maxPurchaseCount);
+            int customerPurchaseCount = this.numberGenerator.Next(2, maxPurchaseCount);
             List<ShopListItem> customerShopList = new List<ShopListItem>();
             for (int i = 0; i < customerPurchaseCount; i++)
             {
@@ -23,8 +22,8 @@ namespace Shops
 
         public List<Customer> GenerateCustomers()
         {
-            const int maxCustomersCount = 5;
-            int customersCount = this.numberGenerator.Next(maxCustomersCount);
+            const int maxCustomersCount = 50;
+            int customersCount = this.numberGenerator.Next(2, maxCustomersCount);
             List<Customer> customers = new List<Customer>();
             for (int i = 0; i < customersCount; i++)
             {

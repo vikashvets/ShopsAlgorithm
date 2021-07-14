@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace Shops
 {
@@ -26,9 +24,9 @@ namespace Shops
             return true;
         }
 
-        public bool isServed()
+        public bool IsServed()
         {
-            return this.shopList.Any(item => item.isBuyed);
+            return shopList.All(item => item.isBuyed);
         }
 
         public void HandleServing(Department department)
