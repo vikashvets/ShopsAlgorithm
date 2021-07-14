@@ -1,0 +1,13 @@
+C:\Users\Alteya\Desktop\Shops\bin\Debug\netcoreapp3.1\Shops.exe
+C:\Users\Alteya\Desktop\Shops\bin\Debug\netcoreapp3.1\Shops.deps.json
+C:\Users\Alteya\Desktop\Shops\bin\Debug\netcoreapp3.1\Shops.runtimeconfig.json
+C:\Users\Alteya\Desktop\Shops\bin\Debug\netcoreapp3.1\Shops.runtimeconfig.dev.json
+C:\Users\Alteya\Desktop\Shops\bin\Debug\netcoreapp3.1\Shops.dll
+C:\Users\Alteya\Desktop\Shops\bin\Debug\netcoreapp3.1\Shops.pdb
+C:\Users\Alteya\Desktop\Shops\obj\Debug\netcoreapp3.1\Shops.csprojAssemblyReference.cache
+C:\Users\Alteya\Desktop\Shops\obj\Debug\netcoreapp3.1\Shops.AssemblyInfoInputs.cache
+C:\Users\Alteya\Desktop\Shops\obj\Debug\netcoreapp3.1\Shops.AssemblyInfo.cs
+C:\Users\Alteya\Desktop\Shops\obj\Debug\netcoreapp3.1\Shops.csproj.CoreCompileInputs.cache
+C:\Users\Alteya\Desktop\Shops\obj\Debug\netcoreapp3.1\Shops.dll
+C:\Users\Alteya\Desktop\Shops\obj\Debug\netcoreapp3.1\Shops.pdb
+C:\Users\Alteya\Desktop\Shops\obj\Debug\netcoreapp3.1\Shops.genruntimeconfig.cache
