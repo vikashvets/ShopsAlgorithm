@@ -43,7 +43,7 @@ namespace Shops
                         Department selectedDepartment = departments.Find(department => (int) department.department == availableItem.itemDepartment);
                         selectedDepartment.AvailableSlotsCount -= 1;
                         customer.IsServing = true;
-                        int servingTime = selectedDepartment.SecondsPerCustomer + selectedDepartment.SecondsForAdditionalPurchase * customer.ShopList.Count(item => item.itemDepartment == (int)selectedDepartment.department);
+                        int servingTime = selectedDepartment.SecondsPerCustomer + selectedDepartment.SecondsForAdditionalPurchase * (customer.ShopList.Count(item => item.itemDepartment == (int)selectedDepartment.department) - 1);
                         var t = Task.Run(() => UpdateResources(customer, availableItem, selectedDepartment, servingTime));
 
                     }
