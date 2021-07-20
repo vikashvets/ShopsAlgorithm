@@ -10,7 +10,7 @@ namespace Shops
         private List<ShopListItem> GenerateShopListForCustomer()
         {
             const int maxPurchaseCount = 5;
-            int customerPurchaseCount = this.numberGenerator.Next(2, maxPurchaseCount);
+            int customerPurchaseCount = numberGenerator.Next(2, maxPurchaseCount);
             List<ShopListItem> customerShopList = new List<ShopListItem>();
             for (int i = 0; i < customerPurchaseCount; i++)
             {
@@ -22,8 +22,8 @@ namespace Shops
 
         public List<Customer> GenerateCustomers()
         {
-            const int maxCustomersCount = 50;
-            int customersCount = this.numberGenerator.Next(2, maxCustomersCount);
+            const int maxCustomersCount = 20;
+            int customersCount = numberGenerator.Next(2, maxCustomersCount);
             List<Customer> customers = new List<Customer>();
             for (int i = 0; i < customersCount; i++)
             {

@@ -5,28 +5,28 @@ namespace Shops
 {
     class Customer
     {
-        public List<ShopListItem> shopList { get; set; }
-        public bool isServing { get; set; }
-        bool isWaiting;
-        public int spendedTime { get; set; }
-        public int waitingTime { get; set; }
+        public List<ShopListItem> ShopList { get; set; }
+        public bool IsServing { get; set; }
+        bool IsWaiting;
+        public int SpendedTime { get; set; }
+        public int WaitingTime { get; set; }
         public Customer(List<ShopListItem> shopList)
         {
-            this.shopList = shopList;
-            this.isWaiting = false;
-            this.isServing = false;
-            this.waitingTime = 0;
-            this.spendedTime = 0;
+            this.ShopList = shopList;
+            this.IsWaiting = false;
+            this.IsServing = false;
+            this.WaitingTime = 0;
+            this.SpendedTime = 0;
         }
 
-        public bool CheckForServeAvailibility(Department department)
+        public bool CheckForServeAvailability(Department department)
         {
             return true;
         }
 
         public bool IsServed()
         {
-            return shopList.All(item => item.isBuyed);
+            return ShopList.All(item => item.isBuyed);
         }
 
         public void HandleServing(Department department)

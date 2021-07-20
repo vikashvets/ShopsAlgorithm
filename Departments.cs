@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Shops
+﻿namespace Shops
 {
     enum Departments
     {
-        GROCERY = 0,
-        MEAT = 1,
-        FISH = 2,
-        DIARY = 3,
-        BAKERY = 4,
-        CANNED_STUFF = 5,
-        FROZEN = 6,
-        CONFECTIONERY = 7
+        Grocery = 0,
+        Meat = 1,
+        Fish = 2,
+        Diary = 3,
+        Bakery = 4,
+        CannedStuff = 5,
+        Frozen = 6,
+        Confectionery = 7
     }
 }
