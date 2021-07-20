@@ -18,7 +18,7 @@
 
         public bool IsBusy()
         {
-            return AvailableSlotsCount > 0;
+            return AvailableSlotsCount == 0;
         }
 
     }
